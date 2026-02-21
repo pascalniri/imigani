@@ -28,7 +28,7 @@ export default function RootLayout({
       lang="en"
       className={`${sourceSans3.variable} ${bricolageGrotesque.variable}`}
     >
-      <body className="antialiased text-sm">{children}</body>
+      <body className="antialiased text-sm w-full">{children}</body>
     </html>
   );
 }
