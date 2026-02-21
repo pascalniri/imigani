@@ -1,4 +1,6 @@
 import Image from "next/image";
+import HeroSideNavigation from "./hero-side-navigation";
+import HeroSideMainContents from "./hero-side-main-contents";
 
 export default function HeroPage() {
     return (
@@ -12,6 +14,10 @@ export default function HeroPage() {
                 Stories whispered <span className="text-[#683d21]">by the fire</span>
               </h1>
             </div>
+          </div>
+          <div className="flex min-h-[80vh]">
+            <HeroSideNavigation />
+            <HeroSideMainContents />
           </div>
         </section>
     );
