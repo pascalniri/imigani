@@ -35,3 +35,9 @@ h5,
 h6 {
   font-family: var(--font-heading);
 }
+
+p {
+  @apply text-[#000]/60;
+  @apply dark:text-[#faf7f0]/50;
+}
+
