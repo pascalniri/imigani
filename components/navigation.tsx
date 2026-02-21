@@ -16,12 +16,12 @@ export default function Navigation() {
   const [open, setOpen] = useState(false);
   const location = usePathname();
   return (
-    <nav className="border-b border-dashed border-gray-300 dark:border-[#faf7f0]/20 bg-background sticky top-0 z-50 w-full">
+    <nav className="border-b border-dashed border-gray-300 dark:border-[#faf7f0]/20 bg-background fixed top-0 z-50 h-14 w-full">
       <div className="max-w-6xl mx-auto flex items-center justify-between h-14 px-4 md:px-8">
         <Link
           href="/"
           className="font-serif text-lg tracking-wide font-semibold text-foreground"
-          aria-label="Fireside Tales - Home"
+          aria-label="Imigani - Home"
         >
           <h1>Imigani.</h1>
         </Link>
