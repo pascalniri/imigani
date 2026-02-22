@@ -67,7 +67,7 @@ export default function RelatedStories() {
 
       <div className="p-6 bg-muted/20 border border-dashed border-gray-300 dark:border-[#faf7f0]/20 ">
         <h3 className="text-xs uppercase tracking-widest text-muted-foreground mb-3 font-sans">
-          Support Imigani
+          Support Ourculture
         </h3>
         <p className="text-xs leading-relaxed text-muted-foreground font-sans">
           Help us preserve African oral traditions by supporting our community
