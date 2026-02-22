@@ -5,7 +5,9 @@ export default function About() {
   return (
     <div className="flex flex-col items-center min-h-screen w-full">
       <Navigation />
-      <main className="min-h-screen border-x border-dashed border-gray-300 dark:border-[#faf7f0]/20 mt-14">
+      <main 
+      className="min-h-screen border-x border-dashed border-gray-300 dark:border-[#faf7f0]/20 mt-14"
+      >
         <div className=" p-5 md:px-60 md:pb-40 ">
           <h1 className="text-xl md:text-2xl font-bold mb-6">
             About Imigani
