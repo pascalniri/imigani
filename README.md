@@ -1,6 +1,6 @@
-# Imigani
+# Ourculture
 
-**Imigani** is a digital archive dedicated to preserving and celebrating the rich storytelling traditions of Africa. From ancient folktales that carry the wisdom of our ancestors to contemporary poetry that captures the heartbeat of a continent, every story here is a thread in the vast tapestry of African heritage.
+**Ourculture** is a digital archive dedicated to preserving and celebrating the rich storytelling traditions of Africa. From ancient folktales that carry the wisdom of our ancestors to contemporary poetry that captures the heartbeat of a continent, every story here is a thread in the vast tapestry of African heritage.
 
 ## 🌍 Mission
 

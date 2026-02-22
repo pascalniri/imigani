@@ -8,8 +8,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-source-sans-3), ui-sans-serif, system-ui, sans-serif;
-  --font-heading: var(--font-bricolage-grotesque), ui-serif, Georgia, serif;
+  --font-sans: var(--font-source-sans-3), ui-sans-serif;
+  --font-heading: var(--font-bricolage-grotesque), ui-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,6 +39,7 @@ h6 {
 p {
   @apply text-[#000]/60;
   @apply dark:text-[#faf7f0]/50;
+  font-family: var(--font-sans);
 }
 
 

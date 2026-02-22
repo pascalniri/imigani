@@ -14,16 +14,12 @@ export default function Featured() {
   };
   return (
     <section>
-      <h2 className="text-right tracking-wide text-muted-foreground font-serif mb-6">
-        #1 Archive
-      </h2>
-
       <div className="mb-8">
         <p className="text-xs uppercase tracking-widest text-muted-foreground mb-3">
           Featured
         </p>
         <Link href={`/story/${featuredStory.id}`} className="group">
-          <div className="flex flex-col md:flex-row gap-5 p-4 border border-dashed border-gray-300 dark:border-[#faf7f0]/20 hover:bg-muted/30 transition-colors">
+          <div className="flex flex-col md:flex-row gap-5 p-4 border border-dashed rounded border-gray-300 dark:border-[#faf7f0]/20 hover:bg-muted/30 transition-colors">
             <Image
               src={featuredStory.coverImage}
               alt={`Cover for ${featuredStory.title}`}

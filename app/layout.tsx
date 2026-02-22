@@ -13,9 +13,9 @@ const bricolageGrotesque = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Imigani",
+  title: "Ourculture",
   description:
-    "Imigani - Is a digital archive dedicated to preserving and celebrating the rich storytelling traditions of Africa. From ancient folktales that carry the wisdom of our ancestors, to contemporary poetry that captures the heartbeat of a continent — every story here is a thread in the vast tapestry of African heritage.",
+    "Ourculture - Is a digital archive dedicated to preserving and celebrating the rich storytelling traditions of Africa. From ancient folktales that carry the wisdom of our ancestors, to contemporary poetry that captures the heartbeat of a continent — every story here is a thread in the vast tapestry of African heritage.",
 };
 
 export default function RootLayout({
@@ -28,7 +28,9 @@ export default function RootLayout({
       lang="en"
       className={`${sourceSans3.variable} ${bricolageGrotesque.variable}`}
     >
-      <body className="antialiased text-sm w-full max-w-6xl mx-auto">{children}</body>
+      <body className="antialiased text-sm w-full max-w-6xl mx-auto">
+        {children}
+      </body>
     </html>
   );
 }
